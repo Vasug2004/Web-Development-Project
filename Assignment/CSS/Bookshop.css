@@ -1,0 +1,341 @@
+@charset "UTF-8";
+
+
+html, body, div, header, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: rgb(252, 239, 255);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    background: rgb(252, 239, 255);
+}
+
+#pageHeader h1 {
+    font-size: 30px;
+    color:rgb(37, 168, 216);
+}
+
+.tagline {
+    color:rgb(216, 37, 207);
+}
+
+.logo {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+#pageHeader h1, .tagline {
+    padding-top: 15px;
+    margin-left: 200px;
+}
+
+#pageHeader {
+    height: 100px;
+    background-color:rgb(172, 197, 221);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center; 
+    padding: 14px 23.5px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active)
+{
+    background-color: #111;
+    color: crimson;
+}
+
+.active {
+    background-color: #00ccff;
+    color: white;
+}
+
+#Subtitle {
+    margin: 20px 0 10px 50px;
+    padding-bottom: 10px;
+}
+
+.Book1 {
+    width: 48%;
+    height: 700px;
+    float: left;
+    padding-left: 20px;
+    background-color: #546e81;
+    border: 3px solid black;
+    color:rgb(202, 185, 117);
+}
+
+.Book1 h3 {
+    color: rgb(202, 185, 117);
+    font-size: 40px;
+    margin-right: 500px;
+}
+
+.Book1 img {
+    width: 300px;
+    height: 500px;
+    float: left;
+}
+
+.Book1_Right {
+    width: 320px;
+    height: 500px;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 25px;
+    float: left;
+}
+
+#Pay1 {
+    width: 100px;
+    margin-top: 15px;
+    padding: 8px 10px;
+    background-color: rgb(175, 165, 125);
+}
+#Pay1:hover {
+    cursor:pointer;
+    background-color:rgb(218, 75, 163);
+    color: rgb(175, 165, 125);
+
+}
+.Book2 {
+    width: 48.75%;
+    height: 700px;
+    float: left;
+    padding-left: 20px;
+    background-color: rgb(175, 165, 125);
+    border: 3px solid black;
+    border-left: hidden;
+    color: black;
+}
+
+.Book2 h3 {
+    color:rgb(123, 109, 88);
+    font-size: 40px;
+    margin-right: 500px;
+}
+
+.Book2 img {
+    width: 300px;
+    height: 450px;
+    float: left;
+}
+
+.Book2_Right {
+    width: 320px;
+    height: 500px;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 20px;
+    float: left;
+}
+
+#Pay2 {
+    width: 100px;
+    margin-top: 15px;
+    padding: 8px 10px;
+    background-color: rgb(174, 152, 119);
+}
+
+#Pay2:hover {
+    cursor:pointer;
+    background-color:rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.Book3 {
+    width: 48%;
+    height: 700px;
+    float: left;
+    padding-left: 20px;
+    background-color: rgb(243, 176, 134);;
+    border: 3px solid black;
+    border-top: hidden;
+}
+
+.Book3 h3 {
+    color: rgb(229, 128, 117);
+    font-size: 40px;
+    margin-right: 500px;
+}
+
+.Book3 img {
+    width: 300px;
+    height: 450px;
+    float: left;
+}
+
+.Book3_Right {
+    width: 320px;
+    height: 500px;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 22px;
+    float: left;
+}
+
+#Pay3 {
+    width: 100px;
+    margin-top: 15px;
+    padding: 8px 10px;
+    background-color: rgb(229, 128, 117);
+}
+
+#Pay3:hover {
+    cursor:pointer;
+    background-color:rgb(255, 39, 172);
+    color: rgb(55, 37, 255);
+}
+
+.Book4 {
+    width: 48.75%;
+    height: 700px;
+    float: left;
+    padding-left: 20px;
+    background-color: #546e81;
+    border: 3px solid black;
+    border-left: hidden;
+    border-top: hidden;
+    color: rgb(202, 185, 117);
+}
+
+.Book4 h3 {
+    color: rgb(230, 187, 178);
+    font-size: 40px;
+    margin-right: 500px;
+}
+
+.Book4 img {
+    width: 300px;
+    height: 450px;
+    float: left;
+}
+
+.Book4_Right {
+    width: 320px;
+    height: 500px;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 19px;
+    float: left;
+}
+
+#Pay4 {
+    width: 100px;
+    margin-top: 15px;
+    padding: 8px 10px;
+    background-color:rgb(230, 187, 178);
+}
+
+#Pay4:hover {
+    cursor:pointer;
+    background-color:rgb(255, 0, 0);
+    color: rgb(242, 255, 3);
+}
+  
+  /* For tablet and mobile screens */
+  @media (max-width: 700px) {
+    #pageHeader h1, .tagline, ul, #Subtitle, .Book1, .Book1 h3, .Book1 img, .Book1_Right, .Book2, .Book2 h3, .Book2 img, .Book2_Right, .Book3, .Book3 h3, .Book3 img, .Book3_Right, .Book4, .Book4 h3, .Book4 img, .Book4_Right {
+      display: block;
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+
+#PayTitle {
+    padding-bottom: 40px;
+    border-bottom: 2px solid rgb(75, 77, 86);
+    text-align: center;
+    font-size: 45px;
+}
+
+#CardH3 {
+    width: 220px;
+    height: 30px;
+    margin-left: 400px;
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+#Mastercard {
+    width: 80px;
+    height: 50px;
+    float: left;
+    margin-top: -60px;
+    margin-left: 650px;
+}
+
+#Visa {
+    width: 80px;
+    height: 40px;
+    float: left;
+    margin-top: -60px;
+    margin-left: 750px;
+}
+
+#PayPal {
+    width: 150px;
+    height: 40px;
+    float: left;
+    margin-top: -60px;
+    margin-left: 870px;
+}
+
+.Card_Details {
+    Border: 2px solid black;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 50px;
+    padding: 75px;
+    background-color: rgb(218, 223, 227);
+}
+
+#CVC {
+    padding-left: 50px;
+    font-size: 15px;
+}
+
+#Continue {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-top: 25px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#Alert {
+    color:red;
+}
+   
+.SuccessH2 {
+    padding: 0 0 50px 300px;
+    border-top: 2px solid rgb(75, 77, 86);
+    padding-top: 40px;
+}

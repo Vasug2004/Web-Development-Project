@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8"/>
+  <title>Vasu Gheewala's Bookshop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../CSS/Bookshop.css">
+  <link rel="icon" type="image/x-icon" href="../Images/favicon.ico">
+  <script src="../JavaScript/BookstoreJS.js"></script>
+</head>
+
+<body>
+
+  <div id="pageHeader"> 
+  <header>
+    <img class="logo" src="../Images/Bookshop.jpg" alt="Bookshop logo" title="Vasu Gheewala's Bookstore">
+    <h1>Vasu Gheewala's Bookshop</h1>
+    <p class="tagline">We believe that knowledge is a treasure and will help you improve your IQ</p>
+  </header>
+  </div>
+
+  <nav> <!-- Navigation bar -->
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+  
+  <br />
+  <h2 id="PayTitle">Payment Options</h2>
+  
+  <h3 id="CardH3">Debit / Credit Card</h3>
+  <img id="Mastercard" src="../Images/Mastercard.png" alt="Mastercard logo" title="Mastercard">
+  <img id="Visa" src="../Images/Visa.png" alt="Visa logo" title="Visa">
+  <img id="PayPal" src="../Images/PayPal.png" alt="PayPal logo" title="Paypal">
+  <div class="Card_Details">
+    <form target="_blank">
+    <label for="CardNo">Card Number</label>
+    <input type="tel" id="CardNo" name="Card Number" pattern="[0-9/s]{13,19}"placeholder="xxxx xxxx xxxx xxxx" maxlength="19" size="20" required>
+    <br />
+    <br />
+    <label for="Month">Expiration Date</label>
+    <select id="Month" name="Month" Placeholder="Month" value="Month">
+        <option value="Month">Month</option>
+        <option value="01">01</option>
+        <option value="02">02</option>
+        <option value="03">03</option>
+        <option value="04">04</option>
+        <option value="05">05</option>
+        <option value="06">06</option>
+        <option value="07">07</option>
+        <option value="08">08</option>
+        <option value="09">09</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+    </select>
+
+    <label for="Year"></label>
+    <select id="Year" name="Year" Placeholder="Year" value="Year">
+        <option value="Year">Year</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+        <option value="2026">2026</option>
+        <option value="2027">2027</option>
+        <option value="2028">2028</option>
+        <option value="2029">2029</option>
+        <option value="2030">2030</option>
+    </select>
+    <br />
+    <br />
+    <label for="PIN">Security Code</label>
+    <input type="text" id="PIN" name="Security Code" pattern="[0-9]{3}"placeholder="123" maxlength="3" size="1" required>
+    <br />
+    <p id="CVC">(3 digit code normally on the back of your card)</p>
+    <br />
+    <button type="button" id="Continue" onclick="ConButton()">Continue</button>
+    <br />
+    <br />
+    <p id="Alert"></p>
+    </form>
+    
+    </div>
+
+  </body>
+  </html>
+  
+
+
